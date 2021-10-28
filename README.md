@@ -9,11 +9,18 @@ Steps
 Prototype Program
 1. Process quantised MIDI to create a groove
 2. Read in a groove from a human player
+
 	-Communicate when human is playing
+
 	-Record message timings
+
 	-Calculate timing 'errors' against a grid (32nd notes?)
-	-Create augmented grid   
+
+	-Create augmented grid  
+ 
 3. Apply augmented grid to incoming messages
+
 	-Identify a quantised message with its augmented equivalent
+
 	-Send the message with the altered timing
 
