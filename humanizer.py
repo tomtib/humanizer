@@ -31,8 +31,8 @@ def open_midi_ports(MIDI_INPUT_PORT, MIDI_OUTPUT_PORT):
     print('OUTPUT PORTS: ')
     print (mido.get_output_names())
     inport = mido.open_input(MIDI_INPUT_PORT)
-    #outport = mido.open_output(MIDI_OUTPUT_PORT)
-    #outport.close()
+    outport = mido.open_output(MIDI_OUTPUT_PORT)
+    outport.close()
     print(f'Connected input to {MIDI_INPUT_PORT}')
     print(f'Connected output to {MIDI_OUTPUT_PORT}')
     return inport
